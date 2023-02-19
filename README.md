@@ -12,7 +12,7 @@ Listed are challenges that would be easy to implement and are a straightforward 
   - [ ] Caesar cipher
   - [ ] Vigènere cipher
   - [ ] Morse code
-  - [ ] One-time pad but insecure because reused (kind of like below)
+  - [ ] One-time Pad but Reused (e.g. `Easy Peasy`)
   - [ ] XOR a bunch of keys and the flag, and decode using the property (`a ^ b ^ b = a`)
 - [ ] Simple example for RSA (given `p, q, c`, find `m`).
 
@@ -26,7 +26,7 @@ Listed are challenges that would be easy to implement and are a straightforward 
 
 - [ ] HTML, CSS, JS, where the flag is located in the source files (e.g. `Insp3ct0r`).
 - [ ] SQL Injection (e.g. `Irish-Name-Repo` challenges)
-- [ ] XSS but like for babies, if you can enter JS code into a form yay
+- [ ] Simple XSS (Enter JS code into a form)
 
 ### Forensics (foren)
 
@@ -51,7 +51,12 @@ Any challenges which are moderately okay to implement and may require pointers f
 - [ ] rev: Read a Java bytecode file (`.class`) using a decompiler
 - [ ] rev: Read a compiled Python file (`.pyc`) into bytecode using `dis.dis`
 - [ ] pwn: Introduce pwntools
-- [ ] look at adapting our scavenger hunt ideas 
+- crypto: Possibly adapt scavenger hunt ideas?
+  - [ ] 1. Caesar cipher + ASCII
+  - [ ] 2. Running Python code
+  - [ ] 3. Railfence cipher, Vigènere cipher, book code
+  - [ ] 4. Fill in the blank CS trivia (likely not viable)
+  - [ ] 5. Programming language word search (likely not viable)
 
 ## Far Off
 
